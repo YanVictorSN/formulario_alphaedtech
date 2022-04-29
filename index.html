@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário AlphaEdtech</title>
+</head>
+<body>
+    <h1>Cadastro AlphaEdTech</h1>
+        <form action="Url" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="group">Turma:</label>
+                <select name="group" id="group">
+                    <option value="turma1">ENIAC</option>
+                    <option value="turma2">Lovelace</option>
+                    <option value="turma3">Turing</option>
+                </select>               
+            </div>
+            <div>
+                <p>HTML é uma linguagem de programação?</p>
+                    <input type="radio" id="yes" name="select" value="sim">
+                    <label for="yes">Sim</label>
+                    <input type="radio" id="no" name="select" value="nao">
+                    <label for="no">Não</label>                
+            </div>
+            <div>
+                <label for="msg"> Considerações sobre a Alpha Edtech</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+</body>
+</html>
