@@ -1,0 +1,25 @@
+body {
+    background-image:linear-gradient(to right, rgb(39, 136, 79),rgb(5, 56, 5));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    background: aliceblue;
+    padding: 1rem;
+    border-radius: 1%;
+}
+legend {
+    text-align: center;
+}
+.inputs {
+    padding: 1px;
+}
+#msg {
+    width: 100%;
+}
+#button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
