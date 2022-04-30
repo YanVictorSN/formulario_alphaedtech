@@ -8,50 +8,61 @@
     <title>Formulário AlphaEdtech</title>
 </head>
 <body>
-    <h1>Cadastro AlphaEdTech</h1>
-        <form action="Url" method="post">
-            <div>
-                <label for="name">Nome:</label><br>
-                <input type="text" id="name">
-            </div>
-            <div>
-                <label for="mail">E-mail</label><br>
-                <input type="email" id="mail">
-            </div>
-            <div>
-                <label for="password">Senha</label><br>
-                <input type="passwor" id="password">
-            </div>
-            <div>
-                <label for="niver">Data de Nascimento</label><br>
-                <input type="date" id="niver">
-            </div>
-            <div>
-                <label for="">Nivel de Satisfação</label><br>
-                <input type="range" list="tickmarks" >               
-            </div><br>
-            <div>
-                <label for="group">Turma:</label><br>
-                <select name="group" id="group">
-                    <option value="turma1">ENIAC</option>
-                    <option value="turma2">Lovelace</option>
-                    <option value="turma3">Turing</option>
-                </select>               
-            </div>
-            <div>
-                <p>HTML é uma linguagem de programação?</p>
-                    <input type="radio" id="yes" name="select" value="sim">
-                    <label for="yes">Sim</label>
-                    <input type="radio" id="no" name="select" value="nao">
-                    <label for="no">Não</label>                
-            </div>
-            <div>
-                <label for="msg"> Considerações sobre a Alpha Edtech</label><br>
-                <textarea id="msg"></textarea>
-            </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
+    <form action="Url" method="post">
+        <fieldset>
+            <legend><b>Cadastro AlphaEdtech</b></legend>
+                <div class="inputs">
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name">
+                </div>
+                <div class="inputs">
+                    <label for="mail">E-mail</label><br>
+                    <input type="email" id="mail">
+                </div>
+                <div class="inputs">
+                    <label for="password">Senha</label><br>
+                    <input type="passwor" id="password">
+                </div>
+                <div class="inputs">
+                    <label for="niver">Data de Nascimento</label><br>
+                    <input type="date" id="niver">
+                </div>
+                <div class="inputs">
+                    <label for="">Nivel de Satisfação</label><br>
+                    <input type="range" list="tickmarks" >               
+                </div>
+                <div class="inputs">
+                    <label for="group">Turma:</label><br>
+                        <select name="group" id="group">
+                        <option value="turma1">ENIAC</option>
+                        <option value="turma2">Lovelace</option>
+                        <option value="turma3">Turing</option>
+                    </select>               
+                </div>
+                <div class="inputs">
+                    <p>HTML é uma linguagem de programação?</p>
+                        <input type="radio" id="yes" name="select" value="sim">
+                        <label for="yes">Sim</label>
+                        <input type="radio" id="no" name="select" value="nao">
+                        <label for="no">Não</label>                
+                </div>
+                <div class="inputs">
+                    <p>Quais trilhas você gostaria de ver nas próximas<br>edições do AlphaEdTech?</p>
+                    <input type="checkbox" id="ia">
+                    <label for="ia">Inteligência Artificial</label><br>
+                    <input type="checkbox" id="blockchain">
+                    <label for="">BlockChain</label><br>
+                    <input type="checkbox" id="cybersecurity">
+                    <label for="">Cybersecurity</label><br>                    
+                </div>
+                <div class="inputs">
+                    <label for="msg"> Considerações sobre a Alpha Edtech:</label><br>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div id="button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </fieldset>
         </form>
 </body>
 </html>
